@@ -1,6 +1,8 @@
 IR Sender/Receiver
 -------------------
-Work in progress....
+Work in progress...
+
+![Components for infrared sender/receiver](https://github.com/madnerdorg/ir/raw/master/doc/ir_components.png)
 
 # Components
 * Led InfraRed
@@ -12,15 +14,15 @@ Work in progress....
 # Wiring
 
 ## Transistor
-(E)mitter --> GND
-(B)ase --> Resistor
-(C)ollector --> LED -
+* (E)mitter --> GND
+* (B)ase --> Resistor
+* (C)ollector --> LED -
 
 ## Arduino Pin
-D3 (Yellow)--> Resistor
-D11 (Blue) --> TSOP OUT
-VCC (Red)--> TSOP+ / LED +
-GND (Black)--> TSOP (GND) 
+* D3 (Yellow)--> Resistor
+* D11 (Blue) --> TSOP OUT
+* VCC (Red)--> TSOP+ / LED +
+* GND (Black)--> TSOP (GND) 
 
 # Licences
 * IRRemote -
